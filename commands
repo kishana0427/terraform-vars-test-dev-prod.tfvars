@@ -1,0 +1,11 @@
+terraform apply -var-file test-env.tfvars
+
+terraform apply -var-file dev-env.tfvars
+
+terraform apply -var-file prod-env.tfvars
+
+terraform apply -var-file demo-env.tfvars
+
+                OR
+                
+terraform apply -auto-approve -var-file test-env.tfvars
